@@ -22,7 +22,8 @@ public class GeneradorDF {
             n2 = numAleatorio.nextInt(10);
             n3 = numAleatorio.nextInt(10);
             n4 = numAleatorio.nextInt(10);
-            
+            System.out.println("Probando: " + n1 + n2 + n3 + n4 + letra);
+
             suma = n1 + n4;
             if (suma % 2 != 1) {
                 n1 = n4;
@@ -32,7 +33,6 @@ public class GeneradorDF {
             multiplicacion = n2 * n3;
             if (multiplicacion % 2 != 0) {
                 n2 = n3;
-                continue;
             }
 
         } while (n1 == n2 || n1 == n3 || n1 == n4 || n2 == n3 || n2 == n4 || n3 == n4);
