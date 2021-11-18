@@ -37,7 +37,8 @@ public class GeneradorDF {
 
         } while (n1 == n2 || n1 == n3 || n1 == n4 || n2 == n3 || n2 == n4 || n3 == n4);
 
-        System.out.println("-------------------------");
+        System.out.println("Se ha encontrado una contraseña valida");
+        System.out.println("------------------------------");
         System.out.println("Tu contraseña es: " + n1 + n2 + n3 + n4 + letra);
     }
 
